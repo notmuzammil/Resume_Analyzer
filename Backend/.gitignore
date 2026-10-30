@@ -1,0 +1,16 @@
+# Secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Runtime logs
+logs/
+*.log
